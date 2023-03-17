@@ -1,0 +1,33 @@
+.toc_container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(46, 119, 221);
+  height: 200px;
+  width: 15 0px;
+  margin-right: 1vw;
+  overflow: scroll;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin: 0.5em;
+}
+
+.title:hover {
+  color: rgb(147, 146, 146);
+  transition: 0.5s;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .toc_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+  }
+  .title {
+    font-weight: bold;
+    font-size: larger;
+  }
+}
