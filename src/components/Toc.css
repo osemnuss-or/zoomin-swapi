@@ -1,33 +1,53 @@
 .toc_container {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(46, 119, 221);
-  height: 200px;
-  width: 15 0px;
-  margin-right: 1vw;
-  overflow: scroll;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .title {
-  text-align: center;
-  font-weight: bold;
-  margin: 0.5em;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: auto;
+  background: #FFFFFF;
+
+  margin-inline: 0.7em;
+  padding: 12px 24px;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 6px;
+  
+  }
 
 .title:hover {
-  color: rgb(147, 146, 146);
-  transition: 0.5s;
+  font-weight: medium;
+  background: #b6b5b5;
+  color:#FFFFFF;
+  transition: 0.3s;
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .toc_container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 90vw;
+    flex: 2;
+    height: auto;
+    margin: 0;
   }
   .title {
-    font-weight: bold;
+    font-weight: Medium;
     font-size: larger;
+    height: auto;
+    
   }
 }

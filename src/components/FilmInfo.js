@@ -34,10 +34,10 @@ function FilmInfo({ chosenFilm }) {
   }, [chosenFilm, filmLiked])
 
   return (
-    <div className="cfd_container">
+    <div className="filmInfo_container">
       {chosenFilm.title ? (
-        <div className="cfd_film_details">
-          <div className="first_row">
+        <div className="filmInfo_content">
+          <div className="headline">
             <h1>{chosenFilm.title}</h1>
             {isLiked ? (
               <AiFillHeart
@@ -68,7 +68,9 @@ function FilmInfo({ chosenFilm }) {
         </h1>
       )}
     </div>
+    
   )
+
 }
 
 export default FilmInfo

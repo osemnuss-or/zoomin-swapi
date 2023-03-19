@@ -1,22 +1,19 @@
-.cfd_container {
+.filmInfo_container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(46, 119, 221);
-  height: 200px;
-  width: 400px;
-}
-
-.cfd_film_details {
-  display: flex;
-  flex-direction: column;
-  overflow: scroll;
-  height: 100%;
-  padding: 10px;
-}
-.first_row {
-  display: flex;
   justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 5%;
+  
+  }
+
+.headline {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 5%;
 }
 .heart {
   color: red;
@@ -28,11 +25,11 @@
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-  .cfd_container {
-    height: 400px;
+  .filmInfo_container {
+    height: 50%;
     width: 90vw;
   }
-  .cfd_film_details {
+  .filmInfo_content {
     padding: 10px;
   }
 }

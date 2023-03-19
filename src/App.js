@@ -3,6 +3,7 @@ import "./App.css"
 import FilmInfo from "./components/FilmInfo"
 import TableOfContent from "./components/Toc"
 
+
 function App() {
   const [chosenFilm, setChosenFilm] = useState(" No Film Chosen")
   return (
