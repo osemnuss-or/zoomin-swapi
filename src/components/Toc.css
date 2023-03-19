@@ -8,13 +8,13 @@
   margin-bottom: 10px;
 }
 
-.title {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-inline-start: auto;
-  background: #FFFFFF;
+  /* background-size:; */
 
   margin-inline: 0.7em;
   padding: 12px 24px;
@@ -27,12 +27,13 @@
   
   }
 
-.title:hover {
+.card:hover {
   font-weight: medium;
   background: #b6b5b5;
   color:#FFFFFF;
   transition: 0.3s;
   cursor: pointer;
+  /* height: 100%; */
 }
 @media screen and (max-width: 768px) {
   .toc_container {
@@ -42,9 +43,9 @@
     width: 90vw;
     flex: 2;
     height: auto;
-    margin: 0;
+    /* margin: 0; */
   }
-  .title {
+  .card {
     font-weight: Medium;
     font-size: larger;
     height: auto;

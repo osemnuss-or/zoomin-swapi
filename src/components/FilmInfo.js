@@ -36,7 +36,7 @@ function FilmInfo({ chosenFilm }) {
   return (
     <div className="filmInfo_container">
       {chosenFilm.title ? (
-        <div className="filmInfo_content">
+        <div className="filmInfo_content" id={"film_num_"+chosenFilm.episode_id} >
           <div className="headline">
             <h1>{chosenFilm.title}</h1>
             {isLiked ? (

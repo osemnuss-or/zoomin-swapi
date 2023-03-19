@@ -25,8 +25,32 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 0;
+    /* margin: 0; */
     
     
     }
+}
+
+#film_num_4 {
+  background-image: url("https://images6.alphacoders.com/613/thumb-1920-613328.jpg");
+}
+
+#film_num_1 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/1011/946/552/star-wars-star-wars-episode-i-the-phantom-menace-darth-maul-hd-wallpaper-preview.jpg");
+}
+
+#film_num_2 {
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/048/196/186/large/lodgiko-116d836f-864a-41ba-b539-8c5cf0bb6d67.jpg?1649426574");
+}
+
+#film_num_3 {
+  background-image: url("https://images6.alphacoders.com/111/1115518.jpg");
+}
+
+#film_num_5 {
+  background-image: url("https://wallpapercave.com/wp/wp4119278.jpg");
+}
+
+#film_num_6 {
+  background-image: url("https://wallpapercave.com/wp/wp3156655.jpg");
 }

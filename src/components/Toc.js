@@ -22,7 +22,8 @@ function TableOfContent({ chosenFilm, setChosenFilm }) {
         return (
           <h4
             key={idx}
-            className="title"
+            id={"film_num_"+film.episode_id}
+            className="card"
             onClick={() => {
               clickForViewFilm(film)
             }}
