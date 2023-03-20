@@ -1,6 +1,7 @@
 # zoomin-swapi
 
-This is assignemensdf
+In is assignement I developed a web UI for ‘The Star Wars API’ that will
+allow a user to choose his/her favorite movies.
 
 
 ### Run
