@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(180deg, #FFFFFF 0%, #BBF7D0 100%);
+  background: linear-gradient(180deg, #d5d5d5 0%, #020202 100%);
   display: flex;
   align-items: center;
   height: 100vh;
@@ -7,14 +7,14 @@
 }
 .app_container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   margin: auto;
-  width: 1140px;
-  height: 568px;
+  width: 1575px;
+  height: auto;
   left: 150px;
   top: 100px;
-  border-radius: 24px;
+  border-radius: 84px;
 
 }
 
@@ -33,24 +33,36 @@
 
 #film_num_4 {
   background-image: url("https://images6.alphacoders.com/613/thumb-1920-613328.jpg");
-}
+  background-size: cover;
+  border-radius: 24px;
+ }
 
 #film_num_1 {
   background-image: url("https://c4.wallpaperflare.com/wallpaper/1011/946/552/star-wars-star-wars-episode-i-the-phantom-menace-darth-maul-hd-wallpaper-preview.jpg");
+  background-size: cover;
+  border-radius: 24px;
 }
 
 #film_num_2 {
-  background-image: url("https://cdna.artstation.com/p/assets/images/images/048/196/186/large/lodgiko-116d836f-864a-41ba-b539-8c5cf0bb6d67.jpg?1649426574");
+ background-image: url("https://cdna.artstation.com/p/assets/images/images/048/196/186/large/lodgiko-116d836f-864a-41ba-b539-8c5cf0bb6d67.jpg?1649426574");
+ background-size: cover;
+ border-radius: 24px;
 }
 
 #film_num_3 {
-  background-image: url("https://images6.alphacoders.com/111/1115518.jpg");
+  background-image: url(https://i.redd.it/im50r3m2szw41.png);
+  background-size: cover;
+  border-radius: 24px;
 }
 
 #film_num_5 {
   background-image: url("https://wallpapercave.com/wp/wp4119278.jpg");
+  background-size: cover;
+  border-radius: 24px;
 }
 
 #film_num_6 {
   background-image: url("https://wallpapercave.com/wp/wp3156655.jpg");
+  background-size: cover;
+  border-radius: 24px;
 }

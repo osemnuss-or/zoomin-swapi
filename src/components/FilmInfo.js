@@ -62,6 +62,8 @@ function FilmInfo({ chosenFilm }) {
             justifyContent: "center",
             alignItems: "center",
             height: "100%",
+            color: "#FFFFFF",
+            
           }}
         >
           {chosenFilm}

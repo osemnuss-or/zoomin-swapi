@@ -4,36 +4,36 @@
   justify-content: center;
   align-items: center;
   width: auto;
+  height: 294px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-inline-start: auto;
-  /* background-size:; */
-
+  width: 196px;
   margin-inline: 0.7em;
   padding: 12px 24px;
   gap: 8px;
   font-weight: 500;
+  color:#FFFFFF;
   font-size: 16px;
-  line-height: 24px;
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  height: 294px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
+ 
   
   }
 
 .card:hover {
+ 
   font-weight: medium;
-  background: #b6b5b5;
   color:#FFFFFF;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
-  /* height: 100%; */
+  
 }
 @media screen and (max-width: 768px) {
   .toc_container {
